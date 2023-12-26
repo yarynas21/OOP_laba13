@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 public class TwitterUser {
-    private String UserMail;
-    private String Country;
+    private String userMail;
+    private String country;
     private LocalDateTime lastActiveTime;
 }

@@ -11,6 +11,6 @@ public class Auth {
     }
 
     public void processData(User user) {
-        String country = user.getCountry();
+        user.getCountry();
     }
 }
